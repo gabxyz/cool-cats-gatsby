@@ -76,7 +76,7 @@ footer p {
   cursor: default;
   max-height: 500px;
   max-width: 500px;
-  box-shadow: 0 0 2px #ffcbd2;
+  border: 1px solid rgba(255, 203, 210, 0.3);
 }
 .catCard h1 {
   margin-bottom: 20px;
@@ -85,5 +85,6 @@ footer p {
 .catCard img {
   max-height: 300px;
   max-width: 300px;
-  border: 1px solid rgba(255, 203, 210, 0.4);
+  border: 1px solid rgba(255, 203, 210, 0.3);
+  box-sizing: border-box;
 }

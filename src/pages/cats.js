@@ -5,15 +5,14 @@ import Layout from "../components/Layout"
 import * as style from "../styles/cats.module.css"
 
 export default function Cats({ data }) {
-  console.log(data)
-  const cats = data.allMarkdownRemark.nodes
+  const cats = data.cats.nodes
   return (
     <Layout>
       <div className={style.cats}>
         <h1>COOL CATS</h1>
         <div className="cats-container">
           {cats.map(cat => (
-            <CatCard cats={cat} />
+            <CatCard cats={cat} key={cat.id} />
           ))}
         </div>
       </div>
@@ -22,14 +21,24 @@ export default function Cats({ data }) {
 }
 
 // export page query
-export const Query = graphql`
-  query CatsPage {
-    allMarkdownRemark {
+export const Test = graphql`
+  query CatsPAge {
+    cats: allMarkdownRemark {
       nodes {
         frontmatter {
           title
           description
-          src
+          src {
+            childImageSharp {
+              gatsbyImageData(
+                width: 300
+                blurredOptions: { width: 100 }
+                placeholder: BLURRED
+                transformOptions: { cropFocus: CENTER }
+                aspectRatio: 0.7
+              )
+            }
+          }
         }
         id
       }
