@@ -1,5 +1,5 @@
 ---
 title: Another Cat Eyes
 description: Another cat with beatiful eyes
-src: "/eyes2.jpg"
+src: "../images/eyes2.jpg"
 ---

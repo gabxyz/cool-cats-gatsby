@@ -1,5 +1,5 @@
 ---
 title: Hiding Cat
 description: A cute cat hiding underneath his blanket
-src: "/hiding.jpg"
+src: "../images/hiding.jpg"
 ---
