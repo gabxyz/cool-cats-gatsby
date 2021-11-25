@@ -31,11 +31,11 @@ export const Test = graphql`
           src {
             childImageSharp {
               gatsbyImageData(
-                width: 300
+                width: 280
                 blurredOptions: { width: 100 }
                 placeholder: BLURRED
                 transformOptions: { cropFocus: CENTER }
-                aspectRatio: 0.7
+                aspectRatio: 1
               )
             }
           }
