@@ -16,6 +16,14 @@
 @media screen and (max-width: 600px) {
   .cats {
     width: 90vw;
+    border-left: 1px solid rgba(255, 203, 210, 0.3);
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
   }
 }
 

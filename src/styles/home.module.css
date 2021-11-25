@@ -11,6 +11,13 @@
   cursor: default;
 }
 
+@media screen and (max-width: 600px) {
+  .home {
+    height: auto;
+    padding: 20px;
+  }
+}
+
 .home h1 {
   font-size: 2rem;
   font-weight: bold;
