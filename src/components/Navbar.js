@@ -5,11 +5,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img
-          src="/catLogo.svg"
-          alt="Cat face silhouette"
-          style={{ maxWidth: "7%" }}
-        ></img>
+        <img src="/catLogo.svg" alt="Cat face silhouette"></img>
         <h1>Cool Cats</h1>
       </div>
       <div className="links">
