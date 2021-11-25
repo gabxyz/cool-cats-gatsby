@@ -1,5 +1,5 @@
 ---
 title: Cat screaming
-description: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+description: AAAAAAAAAAAAAAAAAAAAAA
 src: "../images/screaming.jpg"
 ---
