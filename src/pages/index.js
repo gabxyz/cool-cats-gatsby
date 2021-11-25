@@ -1,17 +1,18 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as style from "../styles/home.module.css"
+import { Link } from "gatsby"
 
 export default function Home() {
   return (
     <Layout>
       <div className={style.home}>
-        <h1>Home Page</h1>
+        <h1>COOL CATS</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quam
-          porro omnis vel, iure error sapiente rem deserunt incidunt optio
-          debitis consequatur adipisci nemo, magni beatae. Aliquid a laborum
-          beatae!
+          This is the cool cats homepage. Go to the <Link to="/cats">Cats</Link>{" "}
+          page to see pics of some cool cats. The cats are cute too, I mean,
+          they're cats, so it's kind of obvious that they would be cute and
+          cool. Enjoy!
         </p>
       </div>
     </Layout>
