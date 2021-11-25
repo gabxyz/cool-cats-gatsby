@@ -8,7 +8,7 @@ export default function Navbar() {
         <img
           src="/catLogo.svg"
           alt="Cat face silhouette"
-          style={{ maxWidth: "8%" }}
+          style={{ maxWidth: "7%" }}
         ></img>
         <h1>Cool Cats</h1>
       </div>

@@ -22,7 +22,7 @@ export default function Cats({ data }) {
 
 // export page query
 export const Test = graphql`
-  query CatsPAge {
+  query CatsPage {
     cats: allMarkdownRemark {
       nodes {
         frontmatter {

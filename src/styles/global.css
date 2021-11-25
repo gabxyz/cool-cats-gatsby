@@ -50,10 +50,20 @@ nav a:hover {
   color: #e69b20;
   transition: 0.3s ease-in-out;
 }
-footer p {
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  cursor: default;
+  width: 200px;
   text-align: center;
   color: #c1c1c1;
-  margin: 40px auto;
+}
+
+.footer a {
+  padding-top: 5px;
 }
 
 .logo {
