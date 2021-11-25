@@ -5,10 +5,19 @@
   justify-content: center;
   text-align: center;
   height: 50vh;
+  width: 60vw;
   border: 1px solid rgba(255, 203, 210, 0.3);
   border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.4);
   cursor: default;
+}
+
+@media screen and (max-width: 600px) {
+  .notFound {
+    height: auto;
+    width: 90vw;
+    padding: 20px;
+  }
 }
 
 .notFound h1 {
@@ -18,4 +27,13 @@
 
 .notFound p {
   margin: 40px;
+}
+
+.notFound a {
+  font-weight: bolder;
+}
+
+.notFound a:hover {
+  color: #e38b80;
+  transition: 0.3s ease-in-out;
 }
