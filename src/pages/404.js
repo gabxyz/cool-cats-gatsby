@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as style from "../styles/notFound.module.css"
@@ -8,10 +9,9 @@ export default function NotFound() {
       <div className={style.notFound}>
         <h1>Page Not Found</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quam
-          porro omnis vel, iure error sapiente rem deserunt incidunt optio
-          debitis consequatur adipisci nemo, magni beatae. Aliquid a laborum
-          beatae!
+          Hello there, this page does not exist. You can go back to the{" "}
+          <Link to="/">Home</Link> page and navigate to the page you are looking
+          for.
         </p>
       </div>
     </Layout>
