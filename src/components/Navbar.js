@@ -6,7 +6,11 @@ export default function Navbar() {
     <nav>
       <div className="logo">
         <Link to="/">
-          <img src="/catLogo.svg" alt="Cat face silhouette"></img>
+          <img
+            src="/catLogo.svg"
+            alt="Cat face silhouette"
+            loading="lazy"
+          ></img>
         </Link>
         <h1>Cool Cats</h1>
       </div>
