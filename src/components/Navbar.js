@@ -1,21 +1,13 @@
 import { Link } from "gatsby"
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 export default function Navbar() {
-  const data = useStaticQuery(graphql`
-    query CatLogo {
-      file(relativePath: { eq: "catLogo.svg" }) {
-        publicURL
-      }
-    }
-  `)
   return (
     <nav>
       <div className="logo">
         <Link to="/">
           <img
-            src={data.file.publicURL}
+            src="/catLogo.svg"
             alt="Cat face silhouette"
             loading="lazy"
           ></img>
